@@ -57,7 +57,6 @@ nav a {
   font-family: 'Helvetica-Oblique';
   text-decoration: none;
   padding: 10px;
-  border: 1px solid #000;
   transition: background-color 0.3s ease;
 }
 
@@ -136,4 +135,43 @@ footer {
   text-align: center;
   padding: 10px;
   border-top: 1px solid #000;
+}
+
+/* Responsive design for phone browsers */
+@media screen and (max-width: 768px) {
+  /* Adjust header padding for mobile */
+  header {
+    padding: 15px;
+  }
+
+  /* Make navigation menu more mobile-friendly */
+  nav {
+    text-align: center;
+  }
+
+  /* Adjust navigation link styles for mobile */
+  nav li {
+    margin-right: 0;
+  }
+
+  nav li:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Adjust main content layout and padding for mobile */
+  main {
+    display: block;
+    padding: 15px;
+  }
+
+  /* Adjust form input, textarea, and submit button for mobile */
+  form input,
+  form textarea {
+    font-size: 14px;
+  }
+
+  form input[type="submit"] {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
 }

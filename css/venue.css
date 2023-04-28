@@ -149,15 +149,9 @@ footer {
     text-align: center;
   }
 
-  /* Stack navigation items vertically for mobile */
-  nav ul {
-    flex-direction: column;
-  }
-
   /* Adjust navigation link styles for mobile */
   nav li {
     margin-right: 0;
-    margin-bottom: 10px;
   }
 
   nav li:last-child {
