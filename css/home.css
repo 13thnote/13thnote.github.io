@@ -1,0 +1,139 @@
+/* Reset some default styles for consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply some basic styles to the body */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@font-face {
+  font-family: 'ParkLane';
+  src: url('fonts/ParkLane.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Apply styles to the header */
+header {
+  background-color: #fff;
+  color: #000000;
+  font-family: 'ParkLane', sans-serif;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+
+/* Apply styles to the navigation */
+nav {
+  background-color: #000;
+  padding: 10px;
+  border-bottom: 1px solid #000;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #fff;
+  font-family: 'Helvetica-Oblique';
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #000;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Apply styles to the main content */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+section {
+  width: 100%;
+  font-family: 'Helvetica-BoldOblique';
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section p {
+  font-family: 'Helvetica-Oblique';
+}
+
+section h2 {
+  margin-bottom: 10px;
+}
+
+section p {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 0;
+  border: 1px solid #000;
+  margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Apply styles to the footer */
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #000;
+}
