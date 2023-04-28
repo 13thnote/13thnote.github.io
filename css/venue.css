@@ -138,4 +138,41 @@ footer {
   border-top: 1px solid #000;
 }
 
-/* Responsive design for phone browsers
+/* Responsive design for phone browsers */
+@media screen and (max-width: 768px) {
+  /* Adjust header padding for mobile */
+  header {
+    padding: 15px;
+  }
+
+  /* Stack navigation items vertically for mobile */
+  nav ul {
+    flex-direction: column;
+  }
+
+  /* Adjust navigation link styles for mobile */
+  nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  nav li:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Adjust main content padding for mobile */
+  main {
+    padding: 15px;
+  }
+
+  /* Adjust form input, textarea, and submit button for mobile */
+  form input,
+  form textarea {
+    font-size: 14px;
+  }
+
+  form input[type="submit"] {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
