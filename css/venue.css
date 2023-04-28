@@ -145,6 +145,11 @@ footer {
     padding: 15px;
   }
 
+  /* Make navigation menu more mobile-friendly */
+  nav {
+    text-align: center;
+  }
+
   /* Stack navigation items vertically for mobile */
   nav ul {
     flex-direction: column;
@@ -160,8 +165,9 @@ footer {
     margin-bottom: 0;
   }
 
-  /* Adjust main content padding for mobile */
+  /* Adjust main content layout and padding for mobile */
   main {
+    display: block;
     padding: 15px;
   }
 
